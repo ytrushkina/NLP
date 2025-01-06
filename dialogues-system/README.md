@@ -48,3 +48,6 @@
      - Installing Docker container for Ubuntu with needed dependencies.
      - Copying project code and data to AWS instance.
      - Initializing the Telegram bot.
+
+### Example
+![Bot in Action](https://github.com/ytrushkina/NLP/blob/master/dialogues-system/screenshot.jpg)
