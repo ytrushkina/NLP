@@ -50,4 +50,5 @@
      - Initializing the Telegram bot.
 
 ### Example
-![Bot in Action](https://github.com/ytrushkina/NLP/blob/master/dialogues-system/screenshot.jpg)
+<img src="https://github.com/ytrushkina/NLP/blob/master/dialogues-system/screenshot.jpg" alt="Bot in Action" width="450"/>
+
