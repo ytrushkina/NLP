@@ -4,14 +4,12 @@
 - Python, scikit-learn, StarSpace, NLTK, BeautifulSoup, AWS, Telegram
 
 ### Description
-- A StackOverflow assistant bot that answers programming-related questions. Hosted on AWS, accessible via a Telegram Bot
+- A StackOverflow assistant bot that answers programming-related questions. Hosted on AWS, accessible via a Telegram Bot.
+- Subtasks: binary classification, multiclass classification, similary search based on vector representations, chatbot training, web scraping, cloud deployment
 
 ### Source
 - Developed as a final project of the [NLP Course](https://www.coursera.org/learn/language-processing) within the "Advanced Machine Learning" Specialization (HSE, Coursera)
-- Code available upon request due to course restrictions
-
-### Outcome
-- Successfully implemented a functional bot able to chitchat and answer programming-related questions based on Stack Overflow posts
+- Code availabiliy restricted due to course licensing
 
 ### Modules
 1. **Data Preparation and Vectorization**
@@ -25,7 +23,7 @@
    
 3. **Chitchat Message Response Generation**
    - **Tools**: chatterbot, rasa-like rule-based generation
-   - **Description**: Response generation based on a combination of a rule-based module and an NN engine from [ChatterBot](https://github.com/gunthercox/ChatterBot?tab=readme-ov-file) class.
+   - **Description**: Response generation based on a combination of a rule-based module and an NN engine from [ChatterBot](https://chatterbot.readthedocs.io/en/stable/) class.
    
 4. **Programming Questions Handling**
    - **Programming Language Classification**
