@@ -38,7 +38,7 @@
      - **Output**: Folder with pkl files for the posts.
    - **Return Feedback**
      - **Tools**: BeautifulSoup
-     - **Description**: Based on the best post ID, return post title, detect post question, and wrap it into an answer template.
+     - **Description**: Based on the best post ID, return post title, detect post language, and wrap it into an answer template.
    
 5. **Putting It All Together**
    - **DialogManager Class**: Manages all the above steps.
