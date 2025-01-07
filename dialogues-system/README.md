@@ -1,4 +1,4 @@
-## Dialogue System Assisting with Search
+## Dialogue System Assisting with Search (2019)
 
 ### Tools & Technologies
 - Python, scikit-learn, StarSpace, NLTK, BeautifulSoup, AWS, Telegram
@@ -7,11 +7,11 @@
 - A StackOverflow assistant bot that answers programming-related questions. Hosted on AWS, accessible via a Telegram Bot
 
 ### Source
-- Developed as a final project of the NLP Course within the "Advanced Machine Learning" Specialization (HSE, Coursera)
+- Developed as a final project of the [NLP Course](https://www.coursera.org/learn/language-processing) within the "Advanced Machine Learning" Specialization (HSE, Coursera)
 - Code available upon request due to course restrictions
 
 ### Outcome
-- Successfully implemented a functional dialogue system, demonstrating proficiency in NLP and cloud deployment
+- Successfully implemented a functional bot able to chitchat and answer programming-related questions based on Stack Overflow posts
 
 ### Modules
 1. **Data Preparation and Vectorization**
@@ -20,12 +20,12 @@
    
 2. **Intent Recognition of User Message**
    - **Tools**: sklearn TfidfVectorizer, sklearn LogisticRegression
-   - **Description**: Binary classification on Tf-Idf representations of text collections (StackOverflow posts and movie subtitles dialogues).
+   - **Description**: Binary classification on Tf-Idf representations of text collections (StackOverflow posts vs. movie subtitles dialogues).
    - **Output**: `vectorizer.pkl`, `intent_recognizer.pkl`
    
 3. **Chitchat Message Response Generation**
    - **Tools**: chatterbot, rasa-like rule-based generation
-   - **Description**: Response generation based on a combination of a rule-based module and an NN engine from ChatterBot class.
+   - **Description**: Response generation based on a combination of a rule-based module and an NN engine from [ChatterBot](https://github.com/gunthercox/ChatterBot?tab=readme-ov-file) class.
    
 4. **Programming Questions Handling**
    - **Programming Language Classification**
@@ -38,7 +38,7 @@
      - **Output**: Folder with pkl files for the posts.
    - **Return Feedback**
      - **Tools**: BeautifulSoup
-     - **Description**: Based on the best post ID, return post title, detect post language, and wrap it into an answer template.
+     - **Description**: Based on the best post ID, return post title and detected post language, and wrap them together with the link into an answer template.
    
 5. **Putting It All Together**
    - **DialogManager Class**: Manages all the above steps.
