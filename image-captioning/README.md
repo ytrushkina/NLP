@@ -15,7 +15,7 @@ Transfer Learning with InceptionV3, CNN/LSTM Transformer, Keras
 - **Description**: using [CoCo dataset](https://cocodataset.org/), extract image featues and captions and prepare captions for training
 
 2. **Set-up the CNN/RNN transformer**
-- **Tools**:
+- **Tools**: 
 - **Description**: 
 
 3. **Training the model**
